@@ -1,6 +1,4 @@
 const express = require('express');
-const fs = require('fs');
-
 const notes = require('./routes/apiRoutes')
 const html = require('./routes/htmlRoutes');
 
@@ -12,7 +10,9 @@ app.use(express.json());
 app.use(express.urlencoded({ extended: true }));
 app.use(express.static('public'));
 
+app.use('/api', notes);
+app.use('/', html);
 
 app.listen(PORT, () =>
-    console.log(`App listening at https://localhost:${PORT}`)
+    console.log(`App listening at http://localhost:${PORT}`)
 );
