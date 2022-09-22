@@ -49,7 +49,7 @@ If you have any questions visit my github at [https:/github.com/CBrunote/](https
 
 ### Screenshot
 
-<img src="public\assets\images\Note-Taker.JPG" width=25%>
+<img src="public\assets\images\Note-Taker.JPG">
 
 You can find the application deployed at the following Heroku Link:
 - [https://powerful-harbor-41840.herokuapp.com/](https://powerful-harbor-41840.herokuapp.com/)
